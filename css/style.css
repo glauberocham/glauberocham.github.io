@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background: rgb(54, 77, 204);
+    background: linear-gradient(180deg, rgba(54, 77, 204, 1) 0%, rgba(19, 36, 129, 1) 100%);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px black;
+    border: 3px solid #fff;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Social */
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.social img {
+    width: 30px;
+}
+
+/* Caixas de Texto */
+.lista-links {
+    list-style: none;
+}
+
+.lista-links li {
+    margin: 10px;
+}
+
+.lista-links li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(54, 77, 204);
+    padding: 15px 20px;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.lista-links li a span{
+    display: block;    
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.lista-links p {
+    padding: 0 0 0 15px;
+}
